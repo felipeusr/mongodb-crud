@@ -1,0 +1,12 @@
+1. criar um documento
+db.alunos.insertOne({nome:"Jonny"})
+db.alunos.insertMany([{nome:"Fred"}, {nome:"William"}])
+
+
+2. atualizar um documento
+db.alunos.update({nome:"Jonny"},{nome:"Steven"})
+
+
+3. deletar um documento
+db.alunos.deleteOne({nome:"Jonny"})
+db.alunos.deleteMany([{nome:"Fred"},{nome:"William"}])

@@ -1,0 +1,19 @@
+1. criar/usar banco de dados
+use banco_db;
+
+
+2. criar coleção
+db.createCollection('usuarios')
+
+
+3. ler documentos na coleção
+db.usuarios.find()
+db.usuarios.find({ nome : "Erik" })
+
+
+4. deletar coleção
+db.drop.usuarios()
+
+
+5. renomear coleção
+db.usuarios.renameCollection('alunos')
