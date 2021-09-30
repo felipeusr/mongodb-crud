@@ -1,2 +1,2 @@
-#### Exemplos simples de Criar, Ler, Atualizar e Deletar documentos e coleções com Mongodb.
+#### Exemplos simples de Criação, Leitura, Atualização e Remoção de documentos e coleções com Mongodb.
 
